@@ -8,6 +8,6 @@ public class WelkomController {
 
 	@GetMapping("/")
 	public String welkom() {
-		return "Welkom op deze website";
+		return "<h1>Welkom op deze website</h1>";
 	}
 }
