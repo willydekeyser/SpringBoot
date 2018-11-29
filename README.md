@@ -1,5 +1,4 @@
 # SpringBoot
-Spring Boot
 
 Spring Boot application
 
