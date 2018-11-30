@@ -9,7 +9,7 @@ public class RestController {
 	public String welkom() {
 		return "<h1>Welkom op deze website<br>Computerclub Format C</h1>"
 				+ "<p>Test op Heroku</p>"
-				+ "<p>Willy De Keyser</p>"
+				+ "<p>Willy De Keyser 30/11/2018</p>"
 				+ "<a href='info'>INFO</a>";
 	}
 }
