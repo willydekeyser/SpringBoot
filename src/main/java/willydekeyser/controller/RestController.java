@@ -7,7 +7,7 @@ public class RestController {
 
 	@GetMapping("/")
 	public String welkom() {
-		return "<h1>Welkom op deze website</h1>"
+		return "<h1>Welkom op deze website<br>Computerclub Format C</h1>"
 				+ "<p>Test op Heroku</p>"
 				+ "<p>Willy De Keyser</p>"
 				+ "<a href='info'>INFO</a>";
