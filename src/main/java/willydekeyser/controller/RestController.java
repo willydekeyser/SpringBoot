@@ -10,6 +10,7 @@ public class RestController {
 		return "<h1>Welkom op deze website<br>Computerclub Format C</h1>"
 				+ "<p>Test op CloudJiffy AUTO deploy: ON</p>"
 				+ "<p>Willy De Keyser</p>"
+				+ "<p>10:44</p>"
 				+ "<a href='info'>INFO</a>";
 	}
 }
