@@ -1,0 +1,14 @@
+kind: LocalConfig
+apiversion: odo.openshift.io/v1alpha1
+ComponentSettings:
+  Type: java:latest
+  SourceLocation: https://github.com/willydekeyser/SpringBoot.git
+  Ref: HEAD
+  SourceType: git
+  Ports:
+  - 8080/TCP
+  - 8443/TCP
+  - 8778/TCP
+  Application: willydekeyser
+  Project: willydekeyser
+  Name: willydekeyser
